@@ -1,4 +1,7 @@
 package devandroid.alessandra.criarasclasses.model;
 
-public class Cursook {
+public class Pessoa {
+
+    //Contrutor
+
 }
