@@ -1,8 +1,10 @@
-package devandroid.alessandra.criarasclasses;
+package devandroid.alessandra.criarasclasses.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import devandroid.alessandra.criarasclasses.R;
 
 public class MainActivity extends AppCompatActivity {
 
