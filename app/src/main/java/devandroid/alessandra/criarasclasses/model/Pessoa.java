@@ -3,7 +3,7 @@ package devandroid.alessandra.criarasclasses.model;
 public class Pessoa {
 
      //Construtor
-    //Atributos - Objetos - Modelo - Template
+    //Atributos - Objetos - Molde - Modelo - Template
     // Métodos de Acesso - Getts and Setts
 
     private String primeiroNome;
@@ -43,5 +43,10 @@ public Pessoa (){}
 
     public void setTelefoneContato(String telefoneContato) {
         this.telefoneContato = telefoneContato;
+
+
+        // To String - Para Textos - Para Strings de Caracteres
+
+
     }
 }
