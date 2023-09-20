@@ -3,6 +3,7 @@ package devandroid.alessandra.criarasclasses.view;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import devandroid.alessandra.criarasclasses.R;
 import devandroid.alessandra.criarasclasses.model.Pessoa;
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         outraPessoa.setSobreNome("Cicarello");
         outraPessoa.setCursoDesejado("Java");
         outraPessoa.setTelefoneContato("31-99999988");
+/*
 
         dadosPessoa = "Primeiro nome: ";
         dadosPessoa += pessoa.getPrimeiroNome();
@@ -55,9 +57,10 @@ public class MainActivity extends AppCompatActivity {
         dadosOutraPessoa += outraPessoa.getCursoDesejado();
         dadosOutraPessoa += " Telefone de Contato: ";
         dadosOutraPessoa += outraPessoa.getTelefoneContato();
+*/
 
-        int parada = 0;
-
+        Log.i("POOAndroid","Objeto pessoa: "+pessoa.toString());
+        Log.i("POOAndroid","Objeto outraPessoa: "+outraPessoa.toString());
 
     }
 }
