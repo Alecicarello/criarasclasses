@@ -74,6 +74,19 @@ public class MainActivity extends AppCompatActivity {
                 editcursodesejado.setText("");
                 edittelefonecontato.setText("");
 
+
+                btnsalvar.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+
+                        pessoa.setPrimeiroNome(editPrimeiroNome.getText().toString());
+                        pessoa.setSobreNome(editsobrenome.getText().toString());
+                        pessoa.setCursoDesejado(editcursodesejado.getText().toString());
+                        pessoa.setTelefoneContato(edittelefonecontato.getText().toString());
+
+                        Toast.makeText(MainActivity.this, "Salvo" + pessoa.toString(), Toast.LENGTH_LONG).show();
+
+
               btnfinalizar.setOnClickListener(new View.OnClickListener() {
                   @Override
                   public void onClick(View view) {
@@ -81,17 +94,6 @@ public class MainActivity extends AppCompatActivity {
                       finish();
 
 
-                      btnsalvar.setOnClickListener(new View.OnClickListener() {
-                          @Override
-                          public void onClick(View view) {
-
-                              pessoa.setPrimeiroNome(editPrimeiroNome.getText().toString());
-                              pessoa.setSobreNome(editsobrenome.getText().toString());
-                              pessoa.setCursoDesejado(editcursodesejado.getText().toString());
-                              pessoa.setTelefoneContato(edittelefonecontato.getText().toString());
-
-                              Toast.makeText(MainActivity.this,"Salvo"+pessoa.toString(), Toast. LENGTH_LONG).show();
-                              finish();
 
 
 
